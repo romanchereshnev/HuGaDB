@@ -1,9 +1,6 @@
 # HuGaDB
 Database for human gait analysis consisting of continues recordings of combined activities, such as walking, running, taking stairs up and down, sitting down, and so on; and the data recorded are segmented and annotated.  Data were collected from a body sensor network consisting of six wearable inertial sensors (accelerometer and gyroscope) located on the right and left thighs, shins, and feet. Additionally, two EMG sensors were used on the quadriceps (front thigh) to measure muscle activity.
 
-## Sensor Network Topology
-In data collection, a 3-axis accelerometer, a 3-axis gyroscope and electromyography (EMG) sensors were used. One 3-axis accelerometer and one 3-axis gyroscope were integrated into a single chip and referred to as inertial sensor. In total, three pairs of inertial sensors and one pair of EMG sensors were installed on the right and left legs with elastic bands. A pair of inertial sensors was installed on the rectus femoris muscle 5 centimetres above the knee, a pair of sensors around the middle of the shinbone at the level where the calf ends, and a pair on the feet on the metatarsal bones. The EMG sensors were placed on vastus lateralis. EMG was connected to three electrodes on the skin. Between the two electrodes was taken the electric potential. In total, 38 signals were collected, 36 from the inertial sensors and 2 from the EMG sensors. 
-
 ## Data Collection
 
 The participants were performed a combination of activities, and data were recorded continually.  For instance, a participant was instructed to perform the following activities: starting from a sitting position, sitting - standing up - walking - going up the stairs - walking - sitting down. The experimenter recorded the data using a laptop and annotated the data with the activities performed. This provided us a long, continuous sequence of segmented data annotated with activities. We developed our own data collector program. In total, 2,111,962 samples were collected from all the 18 participants, and they provided a total of 10 hours of data. Activities are dicribed in Table 1.
@@ -56,14 +53,9 @@ Table 2
 |18 	|70 			    |180 			    |19 	|M                     |
 
 
+##Data format
 
-The main data body of every file has 39 columns. Each column corresponds to a sensor, and one row corresponds to a sample. The order of the columns is fixed. The first 36 columns correspond to the inertial sensors, the next 2 columns correspond to the EMG sensors, and the last column contains the activity ID. The activities are coded as shown in Table 3. The inertial sensors are listed in the following order:  right foot (RF), right shin (RS), right thigh (RT), left foot (LT), left shin (LS), and left thigh (LT), followed by right EMG (R) and left EMG (L). Each inertial sensor produces three acceleration data on x,y,z axes and three gyroscope data on x,y,z axes. For instance, the column named 'RT_acc_z' contains data obtained from the z-axis of accelerometer located on the right thigh. 
-
-Data were collected with next sensors setting:
-* Range of the gyroscopes from -2000 to 2000 deg/sec.
-* Range of the accelerometers from -2g to 2g. Where g is gravity acceleration
-* Values of the gyroscopes and the accelerometers encoded by int_16 datatype.
-* Values of the EMGs encoded by uint_8 datatype.
+The main data body of every file has 39 columns. Each column corresponds to a sensor, and one row corresponds to a sample. The order of the columns is fixed. The first 36 columns correspond to the inertial sensors, the next 2 columns correspond to the EMG sensors, and the last column contains the activity ID. Values of the gyroscopes and the accelerometers encoded by int_16 datatype. Values of the EMGs encoded by uint_8 datatype. The activities are coded as shown in Table 1. The inertial sensors are listed in the following order:  right foot (RF), right shin (RS), right thigh (RT), left foot (LT), left shin (LS), and left thigh (LT), followed by right EMG (R) and left EMG (L). Each inertial sensor produces three acceleration data on x,y,z axes and three gyroscope data on x,y,z axes. For instance, the column named 'RT_acc_z' contains data obtained from the z-axis of accelerometer located on the right thigh. 
 
 
 
@@ -86,3 +78,9 @@ Each file contains header. Here is table with description of the data file heade
 |#Activity 	|List of the activities 			  |string 				  |  lists the activity names in this file  |
 |#ActivityID |List of the ID of activities 	|list of integers |	lists the activity IDs in this file     |
 |#Date-Time 	|Date and Time 					      |MM-DD-HR-MN 		  |Month-Day-Hour-Min format                |
+## Sensor Network Topology
+In data collection, a 3-axis accelerometer, a 3-axis gyroscope and electromyography (EMG) sensors were used. One 3-axis accelerometer and one 3-axis gyroscope were integrated into a single chip and referred to as inertial sensor. In total, three pairs of inertial sensors and one pair of EMG sensors were installed on the right and left legs with elastic bands. A pair of inertial sensors was installed on the rectus femoris muscle 5 centimetres above the knee, a pair of sensors around the middle of the shinbone at the level where the calf ends, and a pair on the feet on the metatarsal bones. The EMG sensors were placed on vastus lateralis. EMG was connected to three electrodes on the skin. Between the two electrodes was taken the electric potential. In total, 38 signals were collected, 36 from the inertial sensors and 2 from the EMG sensors. 
+
+Data were collected with next sensors setting:
+* Range of the gyroscopes from -2000 to 2000 deg/sec.
+* Range of the accelerometers from -2g to 2g. Where g is gravity acceleration

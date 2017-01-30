@@ -1,0 +1,2 @@
+# HuGaDB
+Database for human gait analysis consisting of continues recordings of combined activities, such as walking, running, taking stairs up and down, sitting down, and so on; and the data recorded are segmented and annotated.  Data were collected from a body sensor network consisting of six wearable inertial sensors (accelerometer and gyroscope) located on the right and left thighs, shins, and feet. Additionally, two EMG sensors were used on the quadriceps (front thigh) to measure muscle activity.

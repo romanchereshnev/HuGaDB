@@ -53,7 +53,7 @@ Table 2
 |18 	|70 			    |180 			    |19 	|M                     |
 
 
-##Data format
+## Data format
 
 The main data body of every file has 39 columns. Each column corresponds to a sensor, and one row corresponds to a sample. The order of the columns is fixed. The first 36 columns correspond to the inertial sensors, the next 2 columns correspond to the EMG sensors, and the last column contains the activity ID. Values of the gyroscopes and the accelerometers encoded by int_16 datatype. Values of the EMGs encoded by uint_8 datatype. The activities are coded as shown in Table 1. The inertial sensors are listed in the following order:  right foot (RF), right shin (RS), right thigh (RT), left foot (LT), left shin (LS), and left thigh (LT), followed by right EMG (R) and left EMG (L). Each inertial sensor produces three acceleration data on x,y,z axes and three gyroscope data on x,y,z axes. For instance, the column named 'RT_acc_z' contains data obtained from the z-axis of accelerometer located on the right thigh. 
 

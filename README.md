@@ -21,7 +21,7 @@ Table 1
 |10|Up by elevator |1515 |25 |4.22 |89144|Standing in an elevator while moving up|
 |11|Down by elevator |1185 |19 |3.30 |69729|Standing in an elevator while moving down|
 |12|Sitting in car |3069 |51 |8.55 |180573 |Sitting while an travelling by car as a passenger|
-|Total |35903 |598 |100.00 |2111962| |
+|Total | | 35903 |598 |100.00 |2111962| |
 
 
 The data were collected from 18 participants. These participants were healthy young adults: 4 females and 14 males, average age of 23.67 (standard deviation [std]: 3.69) years, an average height of 179.06 (std: 9.85) cm, and an average weight of   73.44 (std: 16.67) kg.  Characteristics of participants are shown in Table 2. 

@@ -84,3 +84,20 @@ In data collection, a 3-axis accelerometer, a 3-axis gyroscope and electromyogra
 Data were collected with next sensors setting:
 * Range of the gyroscopes from -2000 to 2000 deg/sec.
 * Range of the accelerometers from -2g to 2g. Where g is gravity acceleration
+
+# HuGaDB scripts
+
+* loadDataFromFile.m - contains Matlab function for downloading data from HuGaDB text file
+* load_HuGaDB_file.py - contains Python function for downloading data from HuGaDB text file
+* create_db.py - Python script that create SQLite database from HuGaDB text files. 
+
+SQLite database contains two tables 'files' and and 'data'. 
+'Files' table contains two columns: id, filename.
+'Data' table contains 42 columns: id, file_id, timestamp and data features.
+'File_id' contains id of file from which data downloaded. 
+
+To use this script type:
+python create_db.py path_to_HuGaDB_folder [dbname.db]
+
+Parameter in square brackets is optional database name. 
+By default database have name HuGaDB.db

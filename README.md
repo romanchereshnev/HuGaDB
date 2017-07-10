@@ -89,15 +89,14 @@ Data were collected with next sensors setting:
 
 * loadDataFromFile.m - contains Matlab function for downloading data from HuGaDB text file
 * load_HuGaDB_file.py - contains Python function for downloading data from HuGaDB text file
-* create_db.py - Python script that create SQLite database from HuGaDB text files. 
+* create_db.py - Python script that creates SQLite database from HuGaDB text files. 
 
-SQLite database contains two tables 'files' and and 'data'. 
+SQLite database contains two tables 'files' and 'data'. 
 'Files' table contains two columns: id, filename.
 'Data' table contains 42 columns: id, file_id, timestamp and data features.
-'File_id' contains id of file from which data downloaded. 
+'File_id' contains id of file from which data were loaded. 
 
 To use this script type:
-python create_db.py path_to_HuGaDB_folder [dbname.db]
+python create_db.py path_to_HuGaDB_folder [dbname]
 
-Parameter in square brackets is optional database name. 
-By default database have name HuGaDB.db
+Parameter in square brackets indicating the database name is optional. Default: dbname=HuGaDB

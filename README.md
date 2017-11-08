@@ -1,6 +1,8 @@
 # HuGaDB
 Database for human gait analysis consisting of continues recordings of combined activities, such as walking, running, taking stairs up and down, sitting down, and so on; and the data recorded are segmented and annotated.  Data were collected from a body sensor network consisting of six wearable inertial sensors (accelerometer and gyroscope) located on the right and left thighs, shins, and feet. Additionally, two EMG sensors were used on the quadriceps (front thigh) to measure muscle activity.
 
+If you have trouble with downloading zip file you can download it from [Dropbox](https://www.dropbox.com/s/7nb9g650i5m9k6c/HuGaDB.zip?dl=0) or [Google Drive](https://drive.google.com/file/d/16Z4NYVo85-BcziIoBwgOCnHvUQ59F3Fo/view?pli=1) storages. 
+
 ## Data Collection
 
 The participants were performed a combination of activities, and data were recorded continually.  For instance, a participant was instructed to perform the following activities: starting from a sitting position, sitting - standing up - walking - going up the stairs - walking - sitting down. The experimenter recorded the data using a laptop and annotated the data with the activities performed. This provided us a long, continuous sequence of segmented data annotated with activities. We developed our own data collector program. In total, 2,111,962 samples were collected from all the 18 participants, and they provided a total of 10 hours of data. Activities are dicribed in Table 1.

@@ -1,7 +1,9 @@
+# If you have trouble with downloading zip file you can download it from [Dropbox](https://www.dropbox.com/s/7nb9g650i5m9k6c/HuGaDB.zip?dl=0) or [Google Drive](https://drive.google.com/file/d/16Z4NYVo85-BcziIoBwgOCnHvUQ59F3Fo/view?pli=1) storages. 
+
 # HuGaDB
 Database for human gait analysis consisting of continues recordings of combined activities, such as walking, running, taking stairs up and down, sitting down, and so on; and the data recorded are segmented and annotated.  Data were collected from a body sensor network consisting of six wearable inertial sensors (accelerometer and gyroscope) located on the right and left thighs, shins, and feet. Additionally, two EMG sensors were used on the quadriceps (front thigh) to measure muscle activity.
 
-If you have trouble with downloading zip file you can download it from [Dropbox](https://www.dropbox.com/s/7nb9g650i5m9k6c/HuGaDB.zip?dl=0) or [Google Drive](https://drive.google.com/file/d/16Z4NYVo85-BcziIoBwgOCnHvUQ59F3Fo/view?pli=1) storages. 
+
 
 ## Data Collection
 

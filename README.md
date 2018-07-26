@@ -104,3 +104,19 @@ To use this script type:
 python create_db.py path_to_HuGaDB_folder [dbname]
 
 Parameter in square brackets indicating the database name is optional. Default: dbname=HuGaDB
+
+# Citation
+
+Database is described in this paper: https://link.springer.com/chapter/10.1007/978-3-319-73013-4_12
+
+If you use HuGaDB in your research and would like to cite HuGaDB you can use: Chereshnev R., Kertész-Farkas A. (2018) HuGaDB: Human Gait Database for Activity Recognition from Wearable Inertial Sensor Networks. In: van der Aalst W. et al. (eds) Analysis of Images, Social Networks and Texts. AIST 2017. Lecture Notes in Computer Science, vol 10716. Springer, Cham
+
+In Bibtex format:
+@inproceedings{chereshnev2017hugadb,
+  title={HuGaDB: Human Gait Database for Activity Recognition from Wearable Inertial Sensor Networks},
+  author={Chereshnev, Roman and Kert{\'e}sz-Farkas, Attila},
+  booktitle={International Conference on Analysis of Images, Social Networks and Texts},
+  pages={131--141},
+  year={2017},
+  organization={Springer}
+}

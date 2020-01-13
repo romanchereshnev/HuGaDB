@@ -89,6 +89,285 @@ Data were collected with next sensors setting:
 * Range of the gyroscopes from -2000 to 2000 deg/sec.
 * Range of the accelerometers from -2g to 2g. Where g is gravity acceleration
 
+## Corrupted gyroscope data
+
+Due to gyroscope issues, some data from gyroscopes has been corrupted. Below is a table with a list of files with various activities which contain incorrect data.
+
+<details><summary>Corrupted gyroscope data in files with various activities</summary>
+<p>
+
+|File| Right foot | Left foot | Right shin | Left shin | Right thigh | Left thigh |
+|----|------------|-----------|------------|-----------|-------------|------------|
+|HuGaDB_v1_various_03_00.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_01.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_02.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_03.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_04.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_05.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_06.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_07.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_08.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_09.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_10.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_11.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_12.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_13.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_14.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_15.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_16.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_17.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_18.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_19.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_20.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_21.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_22.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_23.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|		
+|HuGaDB_v1_various_03_24.txt | 	Corrupted		|	OK		| 	Corrupted		|	OK		| 	Corrupted		|	OK		|
+| HuGaDB_v1_various_04_00.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_01.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_02.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_03.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_04.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_05.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_06.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_07.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_08.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_09.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_10.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_11.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_12.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_13.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_14.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_15.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_16.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_17.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_18.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 	
+| HuGaDB_v1_various_04_19.txt | 	Corrupted | 	Corrupted| 	Corrupted| 	Corrupted | 	Corrupted| 	Corrupted| 
+|HuGaDB_v1_various_05_00.txt | 	Corrupted  	   |     OK	        | 	Corrupted  	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_01.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_02.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_03.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_04.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_05.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_06.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_07.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_08.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_09.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_10.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_11.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_12.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_13.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_14.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_15.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_16.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_17.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_18.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_19.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+|HuGaDB_v1_various_05_20.txt | 	Corrupted	   | 	Corrupted	| 	Corrupted	|	OK	|	OK	|	OK	|
+| HuGaDB_v1_various_07_00.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      |	
+| HuGaDB_v1_various_07_01.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_02.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_03.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_04.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_05.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_06.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_07.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_08.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_09.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_10.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_11.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_12.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_13.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_14.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_15.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_16.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_17.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_18.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_19.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_20.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_21.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_22.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_23.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      | 	
+| HuGaDB_v1_various_07_24.txt | Corrupted  | OK        | Corrupted  | OK        |    OK       |    OK      |
+| HuGaDB_v1_various_09_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_03.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted  |	
+| HuGaDB_v1_various_09_09.txt | 	OK | OK	| OK | 	OK | OK	| OK |
+| HuGaDB_v1_various_09_10.txt | 	OK | OK	| OK | 	OK | OK	| OK |
+| HuGaDB_v1_various_09_11.txt | 	OK | OK	| OK | 	OK | OK	| OK |
+| HuGaDB_v1_various_09_13.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_14.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_15.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_16.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_17.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_18.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_19.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_09_20.txt | 	OK |	Corrupted |	OK | Corrupted |	OK |	Corrupted  |
+| HuGaDB_v1_various_11_00.txt | 	OK |	OK	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_01.txt | 	OK |	OK	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_02.txt | 	OK |	OK	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_03.txt | 	OK |	OK	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_04.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_05.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_06.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_07.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_08.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_09.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_10.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_11.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK | 	
+| HuGaDB_v1_various_11_12.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_13.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_14.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_15.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_16.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_17.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_18.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_19.txt |  	OK |	Corrupted	| OK | 	OK |	OK	| OK |	
+| HuGaDB_v1_various_11_20.txt | 	OK |	Corrupted	| OK | 	OK |	OK	| OK |
+| HuGaDB_v1_various_12_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_03.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_10.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_12.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_13.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_14.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_15.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_16.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_17.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_12_18.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |	
+| HuGaDB_v1_various_13_00.txt | 	OK	| OK	| OK | 	OK	| OK	| OK |	
+| HuGaDB_v1_various_13_01.txt | 	OK	| OK	| OK | 	OK	| OK	| OK |	
+| HuGaDB_v1_various_13_02.txt | 	OK	| OK	| OK | 	OK	| OK	| OK |	
+| HuGaDB_v1_various_13_03.txt | 	OK	| OK	| OK | 	OK	| OK	| OK |	
+| HuGaDB_v1_various_13_04.txt | 	OK	| OK	| OK | 	OK	| OK	| OK |	
+| HuGaDB_v1_various_13_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_10.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_12.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_13.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_14.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_15.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_16.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_17.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_18.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_19.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_20.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_21.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_22.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_23.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_13_24.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_03.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_10.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_12.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_13.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_14.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_15.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_16.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_17.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_18.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_19.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_20.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_14_21.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_03.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_15_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_03.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_10.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_12.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_13.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_14.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_15.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_16.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_17.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_18.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_16_19.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_00.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_01.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_02.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_04.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_05.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_06.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_07.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_08.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_09.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_10.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_11.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_12.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_13.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_14.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_15.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_16.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_17.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_18.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_19.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_20.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_21.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_22.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |		
+| HuGaDB_v1_various_17_23.txt | 	Corrupted |	Corrupted |	Corrupted | Corrupted |	Corrupted |	Corrupted |
+| HuGaDB_v1_various_18_00.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_01.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_02.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_03.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_04.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_05.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_06.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_07.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_08.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_09.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_11.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_10.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_12.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_13.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_14.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_15.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |	
+| HuGaDB_v1_various_18_16.txt | 	Corrupted	| Corrupted	| 	Corrupted	| Corrupted	| OK | Corrupted |
+</p>
+</details>
+
 # HuGaDB scripts
 
 * loadDataFromFile.m - contains Matlab function for downloading data from HuGaDB text file

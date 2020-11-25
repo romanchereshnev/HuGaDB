@@ -60,6 +60,12 @@ Table 2
 |17 	|85 			    |179 			    |25 	|M                     |
 |18 	|70 			    |180 			    |19 	|M                     |
 
+## Sensors location
+
+<p align="center">
+     <img src=https://github.com/romanchereshnev/HuGaDB/blob/master/images/Location-of-Sensors.png?raw=true" width="500" alt="no image">
+</p>
+	
 
 ## Data format
 
@@ -577,6 +583,7 @@ Here is a table with a list of files with various activities which contain incor
  | HuGaDB_v1_walking_18_01.txt  | 	 Corrupted | 	Corrupted | 	Corrupted | 	Corrupted | 	OK | 	Corrupted | 	
  | HuGaDB_v1_walking_18_02.txt  | 	 Corrupted | 	Corrupted | 	Corrupted | 	Corrupted | 	OK | 	Corrupted | 	
  | HuGaDB_v1_walking_18_03.txt  | 	 Corrupted | 	Corrupted | 	Corrupted | 	Corrupted | 	OK | 	Corrupted |
+ 
 </p>
 </details>
 
